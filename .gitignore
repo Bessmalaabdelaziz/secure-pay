@@ -1,0 +1,22 @@
+node_modules/
+dist/
+tsconfig.tsbuildinfo
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+
+# local build toolchain (JDK + Android SDK)
+toolchain/
+
+# Android build output
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/local.properties
+android/capacitor-cordova-android-plugins/build/
+android/app/release/
+*.apk.idsig
+/freebuff-sites-build/
